@@ -7,6 +7,6 @@
     <ConfiguredValue>'13-04-2017 12:00:00 AM'</ConfiguredValue>
   </Configuration>
   <Configuration ConfiguredType="Property" Path="\Package.Variables[User::sDataQuietanzaDa].Properties[Value]" ValueType="String">
-    <ConfiguredValue>'12-04-2017 12:00:00 AM'</ConfiguredValue>
+    <ConfiguredValue>'01-04-2017 12:00:00 AM'</ConfiguredValue>
   </Configuration>
 </DTSConfiguration>

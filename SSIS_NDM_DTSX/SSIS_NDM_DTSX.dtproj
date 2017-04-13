@@ -37,5 +37,10 @@
       <FullPath>import_sql_flowA.dtsx</FullPath>
       <References />
     </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>import_sql_flowA_fittizi.dtsx</Name>
+      <FullPath>import_sql_flowA_fittizi.dtsx</FullPath>
+      <References />
+    </DtsPackage>
   </DTSPackages>
 </Project>

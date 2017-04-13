@@ -47,6 +47,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flow A", "Flow A", "{A9ABDE
 		SSIS_NDM_DTSX\SqlScripts\Flow A\SQT-3_ProvvIncassi_Update_IdSeprag.sql = SSIS_NDM_DTSX\SqlScripts\Flow A\SQT-3_ProvvIncassi_Update_IdSeprag.sql
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flow A Fittizi", "Flow A Fittizi", "{4FDD36E0-EB1A-4B22-9CA5-D3AF6BA07D52}"
+	ProjectSection(SolutionItems) = preProject
+		SSIS_NDM_DTSX\SqlScripts\Flow A Fittizi\_ProvvIncassi_Update_IdSepragLocale.sql = SSIS_NDM_DTSX\SqlScripts\Flow A Fittizi\_ProvvIncassi_Update_IdSepragLocale.sql
+		SSIS_NDM_DTSX\SqlScripts\Flow A Fittizi\_Readme_Flow_A.md = SSIS_NDM_DTSX\SqlScripts\Flow A Fittizi\_Readme_Flow_A.md
+		SSIS_NDM_DTSX\SqlScripts\Flow A Fittizi\_SetupTable_oraIncassi.sql = SSIS_NDM_DTSX\SqlScripts\Flow A Fittizi\_SetupTable_oraIncassi.sql
+		SSIS_NDM_DTSX\SqlScripts\Flow A Fittizi\ODB-1_oraIncassiFittizi_SelectNewIdQuietanza.sql = SSIS_NDM_DTSX\SqlScripts\Flow A Fittizi\ODB-1_oraIncassiFittizi_SelectNewIdQuietanza.sql
+		SSIS_NDM_DTSX\SqlScripts\Flow A Fittizi\SCT-1_Oracle_Select_IncassiFittizi.sql = SSIS_NDM_DTSX\SqlScripts\Flow A Fittizi\SCT-1_Oracle_Select_IncassiFittizi.sql
+		SSIS_NDM_DTSX\SqlScripts\Flow A Fittizi\SCT-2_Oracle_Given_IdQuietanza_Retrieve_VociIncasso.sql = SSIS_NDM_DTSX\SqlScripts\Flow A Fittizi\SCT-2_Oracle_Given_IdQuietanza_Retrieve_VociIncasso.sql
+		SSIS_NDM_DTSX\SqlScripts\Flow A Fittizi\SQT-1_oraIncassi_DeleteTable.sql = SSIS_NDM_DTSX\SqlScripts\Flow A Fittizi\SQT-1_oraIncassi_DeleteTable.sql
+		SSIS_NDM_DTSX\SqlScripts\Flow A Fittizi\SQT-2_ProvvIncassi_fittizi_Select_IdQuietanza_Id.sql = SSIS_NDM_DTSX\SqlScripts\Flow A Fittizi\SQT-2_ProvvIncassi_fittizi_Select_IdQuietanza_Id.sql
+		SSIS_NDM_DTSX\SqlScripts\Flow A Fittizi\SQT-3_ProvvIncassi_Update_IdSeprag.sql = SSIS_NDM_DTSX\SqlScripts\Flow A Fittizi\SQT-3_ProvvIncassi_Update_IdSeprag.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
@@ -61,5 +74,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{BF98AE13-7B23-4C05-9069-E7CC73016534} = {B06A6C35-7697-429A-8965-2947A1436F9A}
 		{A9ABDE21-D044-4607-A221-D41117D8D10D} = {B06A6C35-7697-429A-8965-2947A1436F9A}
+		{4FDD36E0-EB1A-4B22-9CA5-D3AF6BA07D52} = {B06A6C35-7697-429A-8965-2947A1436F9A}
 	EndGlobalSection
 EndGlobal
