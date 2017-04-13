@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConfigFiles", "ConfigFiles"
 	ProjectSection(SolutionItems) = preProject
 		SSIS_NDM_DTSX\ConfFiles\import_sql_flow_A.dtsConfig = SSIS_NDM_DTSX\ConfFiles\import_sql_flow_A.dtsConfig
 		SSIS_NDM_DTSX\ConfFiles\import_sql_flow_B.dtsConfig = SSIS_NDM_DTSX\ConfFiles\import_sql_flow_B.dtsConfig
+		SSIS_NDM_DTSX\ConfFiles\svil_sql_import_sql_flow_A.dtsConfig = SSIS_NDM_DTSX\ConfFiles\svil_sql_import_sql_flow_A.dtsConfig
+		SSIS_NDM_DTSX\ConfFiles\svil_sql_import_sql_flow_B.dtsConfig = SSIS_NDM_DTSX\ConfFiles\svil_sql_import_sql_flow_B.dtsConfig
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{6834F5C7-301B-4BA1-966C-89B93093CE25}"
