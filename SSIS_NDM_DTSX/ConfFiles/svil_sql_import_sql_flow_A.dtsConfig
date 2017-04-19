@@ -3,9 +3,11 @@
   <DTSConfigurationHeading>
     <DTSConfigurationFileInfo GeneratedBy="WIN-KHV8JRXRGGV\Administrator" GeneratedFromPackageName="import_sql_flowA" GeneratedFromPackageID="{420A1485-17DF-4F86-81AE-62C5BE47A974}" GeneratedDate="13/04/2017 11.50.37"/>
   </DTSConfigurationHeading>
+  <!--
   <Configuration ConfiguredType="Property" Path="\Package.Connections[sql_SchedarioTerritorio.net.siae.SchedarioTerritorio.SchedarioTerritorioRW].Properties[ConnectionString]" ValueType="String">
     <ConfiguredValue>Data Source=sql_SchedarioTerritorio.net.siae;User ID=SchedarioTerritorioRW;Password=Sch3d4r1o0T3rrRWP455;Initial Catalog=SchedarioTerritorio;Provider=SQLNCLI10.1;Persist Security Info=True;Auto Translate=False;</ConfiguredValue>
   </Configuration>
+  -->
   <!--
   <Configuration ConfiguredType="Property" Path="\Package.Connections[sql_SchedarioTerritorio.net.siae.SchedarioTerritorio.SchedarioTerritorioRW].Properties[ConnectionString]" ValueType="String">
     <ConfiguredValue>Data Source=sql_emittenzaradiotelevisiva.sviluppo.siae;User ID=webserviziadmin;Password=WebAdminpass;Initial Catalog=SchedarioTerritorio;Provider=SQLNCLI10.1;Persist Security Info=True;Auto Translate=False;</ConfiguredValue>

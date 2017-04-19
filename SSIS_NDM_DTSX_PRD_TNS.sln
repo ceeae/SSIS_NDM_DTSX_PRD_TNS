@@ -9,6 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConfigFiles", "ConfigFiles"
 	ProjectSection(SolutionItems) = preProject
 		SSIS_NDM_DTSX\ConfFiles\import_sql_flow_A.dtsConfig = SSIS_NDM_DTSX\ConfFiles\import_sql_flow_A.dtsConfig
 		SSIS_NDM_DTSX\ConfFiles\import_sql_flow_B.dtsConfig = SSIS_NDM_DTSX\ConfFiles\import_sql_flow_B.dtsConfig
+		SSIS_NDM_DTSX\ConfFiles\svil_sql_import_ffl_flow_C.dtsConfig = SSIS_NDM_DTSX\ConfFiles\svil_sql_import_ffl_flow_C.dtsConfig
 		SSIS_NDM_DTSX\ConfFiles\svil_sql_import_sql_flow_A.dtsConfig = SSIS_NDM_DTSX\ConfFiles\svil_sql_import_sql_flow_A.dtsConfig
 		SSIS_NDM_DTSX\ConfFiles\svil_sql_import_sql_flow_B.dtsConfig = SSIS_NDM_DTSX\ConfFiles\svil_sql_import_sql_flow_B.dtsConfig
 	EndProjectSection
@@ -60,6 +61,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flow A Fittizi", "Flow A Fi
 		SSIS_NDM_DTSX\SqlScripts\Flow A Fittizi\SQT-3_ProvvIncassi_Update_IdSeprag.sql = SSIS_NDM_DTSX\SqlScripts\Flow A Fittizi\SQT-3_ProvvIncassi_Update_IdSeprag.sql
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flow C", "Flow C", "{505DF287-B517-4419-80ED-AC9CA1748D22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
@@ -75,5 +78,6 @@ Global
 		{BF98AE13-7B23-4C05-9069-E7CC73016534} = {B06A6C35-7697-429A-8965-2947A1436F9A}
 		{A9ABDE21-D044-4607-A221-D41117D8D10D} = {B06A6C35-7697-429A-8965-2947A1436F9A}
 		{4FDD36E0-EB1A-4B22-9CA5-D3AF6BA07D52} = {B06A6C35-7697-429A-8965-2947A1436F9A}
+		{505DF287-B517-4419-80ED-AC9CA1748D22} = {B06A6C35-7697-429A-8965-2947A1436F9A}
 	EndGlobalSection
 EndGlobal
