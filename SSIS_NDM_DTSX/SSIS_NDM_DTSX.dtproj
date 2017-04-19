@@ -52,22 +52,22 @@
       <FullPath>import_ffl_flowC_Recuperi_modelli97_new.dtsx</FullPath>
       <References />
     </DtsPackage>
-    <DtsPackage FormatVersion="0">
+    <DtsPackage FormatVersion="3">
       <Name>import_ffl_flowC_Recuperi_modelli97_old.dtsx</Name>
       <FullPath>import_ffl_flowC_Recuperi_modelli97_old.dtsx</FullPath>
       <References />
     </DtsPackage>
-    <DtsPackage FormatVersion="0">
+    <DtsPackage FormatVersion="3">
       <Name>import_ffl_flowC_Scarichi_ADC_RCG.dtsx</Name>
       <FullPath>import_ffl_flowC_Scarichi_ADC_RCG.dtsx</FullPath>
       <References />
     </DtsPackage>
-    <DtsPackage FormatVersion="0">
+    <DtsPackage FormatVersion="3">
       <Name>import_ffl_flowC_Scarichi_ADC_SUN.dtsx</Name>
       <FullPath>import_ffl_flowC_Scarichi_ADC_SUN.dtsx</FullPath>
       <References />
     </DtsPackage>
-    <DtsPackage FormatVersion="0">
+    <DtsPackage FormatVersion="3">
       <Name>import_ffl_flowC_AttiConstatAccertatori.dtsx</Name>
       <FullPath>import_ffl_flowC_AttiConstatAccertatori.dtsx</FullPath>
       <References />
