@@ -9,8 +9,8 @@
 USE SchedarioTerritorio
 ;WITH IdQuietanzeImported (IdQuietanza)
 AS (
-	SELECT DISTINCT pri.IdQuietanza FROM ProvvIncassi pri INNER JOIN _oraIncassi ora 
-	ON pri.IdQuietanza = ora.IDQUIETANZA
+	SELECT DISTINCT pri.IdQuietanza FROM ProvvIncassi pri 
+		INNER JOIN _oraIncassi ora ON pri.IdQuietanza = ora.IDQUIETANZA
 --	ORDER BY pri.IdQuietanza DESC
 ) SELECT idqi.IdQuietanza, IdQuietanzeConDettaglio.IdQuietanza FROM IdQuietanzeImported idqi LEFT JOIN 
 	(

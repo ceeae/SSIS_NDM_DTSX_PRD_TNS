@@ -9,9 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConfigFiles", "ConfigFiles"
 	ProjectSection(SolutionItems) = preProject
 		SSIS_NDM_DTSX\ConfFiles\import_sql_flow_A.dtsConfig = SSIS_NDM_DTSX\ConfFiles\import_sql_flow_A.dtsConfig
 		SSIS_NDM_DTSX\ConfFiles\import_sql_flow_B.dtsConfig = SSIS_NDM_DTSX\ConfFiles\import_sql_flow_B.dtsConfig
+		SSIS_NDM_DTSX\ConfFiles\import_sql_flow_G.dtsConfig = SSIS_NDM_DTSX\ConfFiles\import_sql_flow_G.dtsConfig
 		SSIS_NDM_DTSX\ConfFiles\svil_sql_import_ffl_flow_C.dtsConfig = SSIS_NDM_DTSX\ConfFiles\svil_sql_import_ffl_flow_C.dtsConfig
 		SSIS_NDM_DTSX\ConfFiles\svil_sql_import_sql_flow_A.dtsConfig = SSIS_NDM_DTSX\ConfFiles\svil_sql_import_sql_flow_A.dtsConfig
 		SSIS_NDM_DTSX\ConfFiles\svil_sql_import_sql_flow_B.dtsConfig = SSIS_NDM_DTSX\ConfFiles\svil_sql_import_sql_flow_B.dtsConfig
+		SSIS_NDM_DTSX\ConfFiles\svil_sql_import_sql_flow_G.dtsConfig = SSIS_NDM_DTSX\ConfFiles\svil_sql_import_sql_flow_G.dtsConfig
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{6834F5C7-301B-4BA1-966C-89B93093CE25}"
@@ -63,6 +65,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flow A Fittizi", "Flow A Fi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flow C", "Flow C", "{505DF287-B517-4419-80ED-AC9CA1748D22}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flow SAP", "Flow SAP", "{AB8106EC-4792-457B-B8B7-030AF941DA20}"
+	ProjectSection(SolutionItems) = preProject
+		SSIS_NDM_DTSX\SqlScripts\Flow SAP\SQT-2 Insert New Fatture SAP.sql = SSIS_NDM_DTSX\SqlScripts\Flow SAP\SQT-2 Insert New Fatture SAP.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
@@ -79,5 +86,6 @@ Global
 		{A9ABDE21-D044-4607-A221-D41117D8D10D} = {B06A6C35-7697-429A-8965-2947A1436F9A}
 		{4FDD36E0-EB1A-4B22-9CA5-D3AF6BA07D52} = {B06A6C35-7697-429A-8965-2947A1436F9A}
 		{505DF287-B517-4419-80ED-AC9CA1748D22} = {B06A6C35-7697-429A-8965-2947A1436F9A}
+		{AB8106EC-4792-457B-B8B7-030AF941DA20} = {B06A6C35-7697-429A-8965-2947A1436F9A}
 	EndGlobalSection
 EndGlobal

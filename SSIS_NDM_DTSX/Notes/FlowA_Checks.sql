@@ -45,7 +45,7 @@
 --)SELECT ctt.IdQuietanza FROM ctt WHERE ctt.Id <> ctt.IdIncasso
 
 
--- ******** Check Downloading Progress (ProvvIncassiDettaglio)
+-- ******** Check Downloading Progress of Dettagli (ProvvIncassiDettaglio)
 
 --USE SchedarioTerritorio
 --SELECT COUNT(idq) FROM (
