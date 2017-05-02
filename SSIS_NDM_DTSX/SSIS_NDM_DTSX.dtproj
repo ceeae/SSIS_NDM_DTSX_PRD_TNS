@@ -28,63 +28,63 @@
   </Configurations>
   <DTSPackages>
     <DtsPackage FormatVersion="3">
-      <Name>import_sql_flowB.dtsx</Name>
-      <FullPath>import_sql_flowB.dtsx</FullPath>
+      <Name>A_import_sql_Incassi.dtsx</Name>
+      <FullPath>A_import_sql_Incassi.dtsx</FullPath>
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
-      <Name>import_sql_flowA.dtsx</Name>
-      <FullPath>import_sql_flowA.dtsx</FullPath>
+      <Name>A_import_sql_Incassi_Fittizi.dtsx</Name>
+      <FullPath>A_import_sql_Incassi_Fittizi.dtsx</FullPath>
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
-      <Name>import_sql_flowA_fittizi.dtsx</Name>
-      <FullPath>import_sql_flowA_fittizi.dtsx</FullPath>
+      <Name>B_import_sql_Pagamenti_Accentrati.dtsx</Name>
+      <FullPath>B_import_sql_Pagamenti_Accentrati.dtsx</FullPath>
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
-      <Name>import_ffl_flowI_VigilanzeAutorali.dtsx</Name>
-      <FullPath>import_ffl_flowI_VigilanzeAutorali.dtsx</FullPath>
+      <Name>C_import_ffl_Atti_Constatazione_Accertatori.dtsx</Name>
+      <FullPath>C_import_ffl_Atti_Constatazione_Accertatori.dtsx</FullPath>
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
-      <Name>import_ffl_flowCDE_Recuperi_modelli97_new.dtsx</Name>
-      <FullPath>import_ffl_flowCDE_Recuperi_modelli97_new.dtsx</FullPath>
+      <Name>D_import_ffl_Recuperi_Modelli97_New.dtsx</Name>
+      <FullPath>D_import_ffl_Recuperi_Modelli97_New.dtsx</FullPath>
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
-      <Name>import_ffl_flowCDE_Recuperi_modelli97_old.dtsx</Name>
-      <FullPath>import_ffl_flowCDE_Recuperi_modelli97_old.dtsx</FullPath>
+      <Name>D_import_ffl_Recuperi_Modelli97_Old.dtsx</Name>
+      <FullPath>D_import_ffl_Recuperi_Modelli97_Old.dtsx</FullPath>
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
-      <Name>import_ffl_flowE_Scarichi_ADC_RCG.dtsx</Name>
-      <FullPath>import_ffl_flowE_Scarichi_ADC_RCG.dtsx</FullPath>
+      <Name>E_import_ffl_Scarichi_ADC_RCG.dtsx</Name>
+      <FullPath>E_import_ffl_Scarichi_ADC_RCG.dtsx</FullPath>
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
-      <Name>import_ffl_flowE_Scarichi_ADC_SUN.dtsx</Name>
-      <FullPath>import_ffl_flowE_Scarichi_ADC_SUN.dtsx</FullPath>
+      <Name>E_mport_ffl_Scarichi_ADC_SUN.dtsx</Name>
+      <FullPath>E_mport_ffl_Scarichi_ADC_SUN.dtsx</FullPath>
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
-      <Name>import_ffl_flowD_AttiConstatAccertatori.dtsx</Name>
-      <FullPath>import_ffl_flowD_AttiConstatAccertatori.dtsx</FullPath>
+      <Name>G_import_sql_Accertamenti_Erariali_Modelli93.dtsx</Name>
+      <FullPath>G_import_sql_Accertamenti_Erariali_Modelli93.dtsx</FullPath>
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
-      <Name>import_sql_flowG_Modelli93.dtsx</Name>
-      <FullPath>import_sql_flowG_Modelli93.dtsx</FullPath>
+      <Name>H_import_sql_Accertamenti_AAMS_Modelli253.dtsx</Name>
+      <FullPath>H_import_sql_Accertamenti_AAMS_Modelli253.dtsx</FullPath>
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
-      <Name>import_sql_flowG_Modelli253.dtsx</Name>
-      <FullPath>import_sql_flowG_Modelli253.dtsx</FullPath>
+      <Name>I_import_ffl_Accertamenti_Autorali.dtsx</Name>
+      <FullPath>I_import_ffl_Accertamenti_Autorali.dtsx</FullPath>
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
-      <Name>import_ffl_flowSAP_Fatture.dtsx</Name>
-      <FullPath>import_ffl_flowSAP_Fatture.dtsx</FullPath>
+      <Name>S_import_ffl_Fatture_SAP.dtsx</Name>
+      <FullPath>S_import_ffl_Fatture_SAP.dtsx</FullPath>
       <References />
     </DtsPackage>
   </DTSPackages>

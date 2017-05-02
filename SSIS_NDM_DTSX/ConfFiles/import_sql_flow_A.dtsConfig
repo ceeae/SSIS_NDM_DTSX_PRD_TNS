@@ -8,9 +8,9 @@
     Dates Range: set BOTH values to well-formed dates e.g. Da = '01-07-2012 12:00:00 AM'; A = '31-07-2012 12:00:00 AM'
   -->
   <Configuration ConfiguredType="Property" Path="\Package.Variables[User::sDataQuietanzaA].Properties[Value]" ValueType="String">
-    <ConfiguredValue>'01-01-1899 12:00:00 AM'</ConfiguredValue>
+    <ConfiguredValue>'02-05-2017 12:00:00 AM'</ConfiguredValue>
   </Configuration>
   <Configuration ConfiguredType="Property" Path="\Package.Variables[User::sDataQuietanzaDa].Properties[Value]" ValueType="String">
-    <ConfiguredValue>'01-01-1899 12:00:00 AM'</ConfiguredValue>
+    <ConfiguredValue>'27-04-2017 12:00:00 AM'</ConfiguredValue>
   </Configuration>
 </DTSConfiguration>
