@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTSConfiguration>
+  <DTSConfigurationHeading>
+    <DTSConfigurationFileInfo GeneratedBy="WIN-KHV8JRXRGGV\Administrator" GeneratedFromPackageName="import_sql_flowG_Modelli93" GeneratedFromPackageID="{B421AEA9-D258-48DD-A608-5DCD1D4C760E}" GeneratedDate="28/04/2017 11.04.54"/>
+  </DTSConfigurationHeading>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::sDataInserimentoA].Properties[Value]" ValueType="String">
+    <ConfiguredValue>'02-05-2017 12:00:00 AM'</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::sDataInserimentoDa].Properties[Value]" ValueType="String">
+    <ConfiguredValue>'01-04-2017 12:00:00 AM'</ConfiguredValue>
+  </Configuration>
+</DTSConfiguration>

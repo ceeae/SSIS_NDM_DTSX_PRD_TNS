@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<DTSConfiguration>
+  <DTSConfigurationHeading>
+    <DTSConfigurationFileInfo GeneratedBy="WIN-KHV8JRXRGGV\Administrator" GeneratedFromPackageName="import_sql_flowG_Modelli93" GeneratedFromPackageID="{B421AEA9-D258-48DD-A608-5DCD1D4C760E}" GeneratedDate="28/04/2017 11.41.06"/>
+  </DTSConfigurationHeading>
+  
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[sql_SchedarioTerritorio.net.siae.SchedarioTerritorio.SchedarioTerritorioRW].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>Data Source=sql_SchedarioTerritorio.net.siae;User ID=SchedarioTerritorioRW;Password=Sch3d4r1o0T3rrRWP455;Initial Catalog=SchedarioTerritorio;Provider=SQLNCLI10.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-import_sql_flowG_Modelli93-{BAE8408F-FBCA-484E-B659-5FEE4F00178A}sql_SchedarioTerritorio.net.siae.SchedarioTerritorio.Sch;</ConfiguredValue>
+  </Configuration>
+
+  <!-- Production
+    Data Source=sql_SchedarioTerritorio.net.siae;User ID=SchedarioTerritorioRW;Password=Sch3d4r1o0T3rrRWP455;
+  -->
+
+  <!-- Development
+    Data Source=Data Source=sql_emittenzaradiotelevisiva.sviluppo.siae;User ID=webserviziadmin;Password=WebAdminpass;
+  -->
+</DTSConfiguration>
