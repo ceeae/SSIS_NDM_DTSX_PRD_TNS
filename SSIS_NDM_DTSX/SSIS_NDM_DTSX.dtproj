@@ -68,6 +68,11 @@
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
+      <Name>F_import_sql_DOR_ERT.dtsx</Name>
+      <FullPath>F_import_sql_DOR_ERT.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
       <Name>G_import_sql_Accertamenti_Erariali_Modelli93.dtsx</Name>
       <FullPath>G_import_sql_Accertamenti_Erariali_Modelli93.dtsx</FullPath>
       <References />
@@ -90,6 +95,16 @@
     <DtsPackage FormatVersion="3">
       <Name>S_import_ffl_Fatture_SAP.dtsx</Name>
       <FullPath>S_import_ffl_Fatture_SAP.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Package1.dtsx</Name>
+      <FullPath>Package1.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Package2.dtsx</Name>
+      <FullPath>Package2.dtsx</FullPath>
       <References />
     </DtsPackage>
   </DTSPackages>
