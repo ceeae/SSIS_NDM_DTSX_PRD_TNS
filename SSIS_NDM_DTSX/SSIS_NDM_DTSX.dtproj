@@ -93,11 +93,6 @@
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
-      <Name>S_import_ffl_Fatture_SAP.dtsx</Name>
-      <FullPath>S_import_ffl_Fatture_SAP.dtsx</FullPath>
-      <References />
-    </DtsPackage>
-    <DtsPackage FormatVersion="3">
       <Name>Package1.dtsx</Name>
       <FullPath>Package1.dtsx</FullPath>
       <References />
@@ -108,8 +103,8 @@
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
-      <Name>ConfigTest.dtsx</Name>
-      <FullPath>ConfigTest.dtsx</FullPath>
+      <Name>S_import_ffl_Fatture_SAP.dtsx</Name>
+      <FullPath>S_import_ffl_Fatture_SAP.dtsx</FullPath>
       <References />
     </DtsPackage>
   </DTSPackages>

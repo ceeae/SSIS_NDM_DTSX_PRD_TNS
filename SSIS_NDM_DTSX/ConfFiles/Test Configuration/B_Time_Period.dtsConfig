@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <DTSConfiguration>
   <DTSConfigurationHeading>
-    <DTSConfigurationFileInfo GeneratedBy="WIN-KHV8JRXRGGV\Administrator" GeneratedFromPackageName="A_import_sql_Incassi" GeneratedFromPackageID="{3793239E-AB84-4E2C-B4BE-3F4243A0E4CF}" GeneratedDate="08/05/2017 22.06.18"/>
+    <DTSConfigurationFileInfo GeneratedBy="WIN-KHV8JRXRGGV\Administrator" GeneratedFromPackageName="B_import_sql_Pagamenti_Accentrati" GeneratedFromPackageID="{A2D56511-2F96-4E1E-8A7F-65995CFB988D}" GeneratedDate="08/05/2017 22.10.45"/>
   </DTSConfigurationHeading>
   <!-- 
     Automatic (import last 24 hours): set both values to 'Yesterday' (case insensitive)
     Dates Range: set BOTH values to well-formed dates e.g. sDataQuietanzaDa = '01-07-2012 12:00:00 AM'; sDataQuietanzaA = '31-07-2012 12:00:00 AM'
   -->
-  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::sDataQuietanzaA].Properties[Value]" ValueType="String">
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::sDataReversaleA].Properties[Value]" ValueType="String">
     <ConfiguredValue>'Yesterday'</ConfiguredValue>
   </Configuration>
-  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::sDataQuietanzaDa].Properties[Value]" ValueType="String">
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::sDataReversaleDa].Properties[Value]" ValueType="String">
     <ConfiguredValue>'Yesterday'</ConfiguredValue>
   </Configuration>
 </DTSConfiguration>

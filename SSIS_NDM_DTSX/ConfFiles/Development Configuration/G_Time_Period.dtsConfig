@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<DTSConfiguration>
+  <DTSConfigurationHeading>
+    <DTSConfigurationFileInfo GeneratedBy="WIN-KHV8JRXRGGV\Administrator" GeneratedFromPackageName="G_import_sql_Accertamenti_Erariali_Modelli93" GeneratedFromPackageID="{43CDB272-323E-4631-A46E-50666FA6E1D9}" GeneratedDate="08/05/2017 22.37.50"/>
+  </DTSConfigurationHeading>
+  <!-- 
+    Automatic (import last 24 hours): set both values to 'Yesterday' (case insensitive)
+    Dates Range: set BOTH values to well-formed dates e.g. sDataQuietanzaDa = '01-07-2012 12:00:00 AM'; sDataQuietanzaA = '31-07-2012 12:00:00 AM'
+  -->
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::sDataInserimentoA].Properties[Value]" ValueType="String">
+    <ConfiguredValue>'Yesterday'</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::sDataInserimentoDa].Properties[Value]" ValueType="String">
+    <ConfiguredValue>'Yesterday'</ConfiguredValue>
+  </Configuration>
+</DTSConfiguration>
