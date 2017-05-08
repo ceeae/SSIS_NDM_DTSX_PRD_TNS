@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<DTSConfiguration>
+  <DTSConfigurationHeading>
+    <DTSConfigurationFileInfo GeneratedBy="WIN-KHV8JRXRGGV\Administrator" GeneratedFromPackageName="A_import_sql_Incassi" GeneratedFromPackageID="{3793239E-AB84-4E2C-B4BE-3F4243A0E4CF}" GeneratedDate="08/05/2017 22.06.18"/>
+  </DTSConfigurationHeading>
+  <!-- 
+    Automatic (import last 24 hours): set both values to 'Yesterday' (case insensitive)
+    Dates Range: set BOTH values to well-formed dates e.g. sDataQuietanzaDa = '01-07-2012 12:00:00 AM'; sDataQuietanzaA = '31-07-2012 12:00:00 AM'
+  -->
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::sDataQuietanzaA].Properties[Value]" ValueType="String">
+    <ConfiguredValue>'05-05-2017 12:00:00 AM'</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::sDataQuietanzaDa].Properties[Value]" ValueType="String">
+    <ConfiguredValue>'01-05-2017 12:00:00 AM'</ConfiguredValue>
+  </Configuration>
+</DTSConfiguration>

@@ -1,8 +1,12 @@
 <?xml version="1.0"?>
 <DTSConfiguration>
   <DTSConfigurationHeading>
-    <DTSConfigurationFileInfo GeneratedBy="WIN-KHV8JRXRGGV\Administrator" GeneratedFromPackageName="import_sql_flowB" GeneratedFromPackageID="{09746C47-C4CF-4B92-8795-B7C668F089A0}" GeneratedDate="13/04/2017 10.21.50"/>
+    <DTSConfigurationFileInfo GeneratedBy="WIN-KHV8JRXRGGV\Administrator" GeneratedFromPackageName="F_import_sql_DOR_ERT" GeneratedFromPackageID="{30FAD82E-3AFC-444B-99A3-08F2B8B1436F}" GeneratedDate="08/05/2017 22.33.19"/>
   </DTSConfigurationHeading>
+  <!-- 
+    Automatic (import last 24 hours): set both values to 'Yesterday' (case insensitive)
+    Dates Range: set BOTH values to well-formed dates e.g. sDataQuietanzaDa = '01-07-2012 12:00:00 AM'; sDataQuietanzaA = '31-07-2012 12:00:00 AM'
+  -->
   <Configuration ConfiguredType="Property" Path="\Package.Variables[User::sDataReversaleA].Properties[Value]" ValueType="String">
     <ConfiguredValue>'01-05-2017 12:00:00 AM'</ConfiguredValue>
   </Configuration>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<DTSConfiguration>
+  <DTSConfigurationHeading>
+    <DTSConfigurationFileInfo GeneratedBy="WIN-KHV8JRXRGGV\Administrator" GeneratedFromPackageName="ConfigTest" GeneratedFromPackageID="{3716EFD6-70DE-41D7-A48F-C47EE00F9EE1}" GeneratedDate="08/05/2017 18.56.05"/>
+  </DTSConfigurationHeading>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::SchedarioTerritorioDatabaseEnvironment].Properties[Value]" ValueType="String">
+    <ConfiguredValue>development</ConfiguredValue>
+  </Configuration>
+</DTSConfiguration>

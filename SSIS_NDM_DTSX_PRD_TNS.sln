@@ -7,14 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SqlScripts", "SqlScripts", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConfigFiles", "ConfigFiles", "{C93F9856-6F76-4AC1-BBDE-65BD66AFA675}"
 	ProjectSection(SolutionItems) = preProject
-		SSIS_NDM_DTSX\ConfFiles\import_sql_flow_A.dtsConfig = SSIS_NDM_DTSX\ConfFiles\import_sql_flow_A.dtsConfig
-		SSIS_NDM_DTSX\ConfFiles\import_sql_flow_B.dtsConfig = SSIS_NDM_DTSX\ConfFiles\import_sql_flow_B.dtsConfig
-		SSIS_NDM_DTSX\ConfFiles\import_sql_flow_G.dtsConfig = SSIS_NDM_DTSX\ConfFiles\import_sql_flow_G.dtsConfig
-		SSIS_NDM_DTSX\ConfFiles\L_db_connections.dtsConfig = SSIS_NDM_DTSX\ConfFiles\L_db_connections.dtsConfig
-		SSIS_NDM_DTSX\ConfFiles\svil_sql_import_ffl_flow_C.dtsConfig = SSIS_NDM_DTSX\ConfFiles\svil_sql_import_ffl_flow_C.dtsConfig
-		SSIS_NDM_DTSX\ConfFiles\svil_sql_import_sql_flow_A.dtsConfig = SSIS_NDM_DTSX\ConfFiles\svil_sql_import_sql_flow_A.dtsConfig
-		SSIS_NDM_DTSX\ConfFiles\svil_sql_import_sql_flow_B.dtsConfig = SSIS_NDM_DTSX\ConfFiles\svil_sql_import_sql_flow_B.dtsConfig
-		SSIS_NDM_DTSX\ConfFiles\svil_sql_import_sql_flow_G.dtsConfig = SSIS_NDM_DTSX\ConfFiles\svil_sql_import_sql_flow_G.dtsConfig
+		SSIS_NDM_DTSX\ConfFiles\A_Time_Period.dtsConfig = SSIS_NDM_DTSX\ConfFiles\A_Time_Period.dtsConfig
+		SSIS_NDM_DTSX\ConfFiles\B_Time_Period.dtsConfig = SSIS_NDM_DTSX\ConfFiles\B_Time_Period.dtsConfig
+		SSIS_NDM_DTSX\ConfFiles\ConfigTest.dtsConfig = SSIS_NDM_DTSX\ConfFiles\ConfigTest.dtsConfig
+		SSIS_NDM_DTSX\ConfFiles\F_Time_Period.dtsConfig = SSIS_NDM_DTSX\ConfFiles\F_Time_Period.dtsConfig
+		SSIS_NDM_DTSX\ConfFiles\G_Time_Period.dtsConfig = SSIS_NDM_DTSX\ConfFiles\G_Time_Period.dtsConfig
+		SSIS_NDM_DTSX\ConfFiles\H_Time_Period.dtsConfig = SSIS_NDM_DTSX\ConfFiles\H_Time_Period.dtsConfig
+		SSIS_NDM_DTSX\ConfFiles\SchedarioTerritorioDatabaseEnvironment.dtsConfig = SSIS_NDM_DTSX\ConfFiles\SchedarioTerritorioDatabaseEnvironment.dtsConfig
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{6834F5C7-301B-4BA1-966C-89B93093CE25}"
