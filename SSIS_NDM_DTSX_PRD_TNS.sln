@@ -9,11 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConfigFiles", "ConfigFiles"
 	ProjectSection(SolutionItems) = preProject
 		SSIS_NDM_DTSX\ConfFiles\A_Time_Period.dtsConfig = SSIS_NDM_DTSX\ConfFiles\A_Time_Period.dtsConfig
 		SSIS_NDM_DTSX\ConfFiles\B_Time_Period.dtsConfig = SSIS_NDM_DTSX\ConfFiles\B_Time_Period.dtsConfig
-		SSIS_NDM_DTSX\ConfFiles\ConfigTest.dtsConfig = SSIS_NDM_DTSX\ConfFiles\ConfigTest.dtsConfig
 		SSIS_NDM_DTSX\ConfFiles\F_Time_Period.dtsConfig = SSIS_NDM_DTSX\ConfFiles\F_Time_Period.dtsConfig
 		SSIS_NDM_DTSX\ConfFiles\G_Time_Period.dtsConfig = SSIS_NDM_DTSX\ConfFiles\G_Time_Period.dtsConfig
 		SSIS_NDM_DTSX\ConfFiles\H_Time_Period.dtsConfig = SSIS_NDM_DTSX\ConfFiles\H_Time_Period.dtsConfig
 		SSIS_NDM_DTSX\ConfFiles\SchedarioTerritorioDatabaseEnvironment.dtsConfig = SSIS_NDM_DTSX\ConfFiles\SchedarioTerritorioDatabaseEnvironment.dtsConfig
+		SSIS_NDM_DTSX\ConfFiles\SchedarioTerritorioFileSharingFolder.dtsConfig = SSIS_NDM_DTSX\ConfFiles\SchedarioTerritorioFileSharingFolder.dtsConfig
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{6834F5C7-301B-4BA1-966C-89B93093CE25}"

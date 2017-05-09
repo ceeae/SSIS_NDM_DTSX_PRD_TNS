@@ -35,18 +35,18 @@ FLUSSI @2-May-2017
 Input Path: \\hnas1_50\WebServiziUpload\SchedarioTerritorio\Provvigioni\   (parametro)
 Archive:	\\hnas1_50\WebServiziUpload\SchedarioTerritorio\Provvigioni\Archive
 
-.2	A		G	SQL Incassi e Incassi Fittizi
-.	B		G	SQL Pagamenti Accentrati
-.	C		M	FFL Atti di Constatazione															[AttiConstatAccertatori.csv]
-#   C   ?       SQL Atti di Constatazione (estrazione da SUN - SQL da definire)
-.2	D		M	FFL Atti di Constatazione (Dettaglio) - Recuperi modelli 97 old e new				[Recuperi_modelli97_<new|old>.csv]
-.2	E		M	FFL RCG - Scarichi ADC RCG e SUN													[Scarichi_ADC_<RCG|SUN>.csv]
-.	F		M	SQL DOR/ERT (verificare sql estrae pochi dati)
-.	G		M 	SQL Accertamenti Erariali (modelli 93)
-.	H		M	SQL Accertamenti AAMS (modelli 253)
-.	I		M	FFL Accertamenti Autorali															[VigilanzeAutorali.csv]
-.	L		M	SQL Accertamenti REGBSM
-.	S	W	G	FFL Fatture SAP																		[SUN_SAP.csv]
+.2	A		G	SQL Incassi e Incassi Fittizi																		[_oraIncassi; _oraIncassiFittizi]
+.	B		G	SQL Pagamenti Accentrati																			[_oraAccentramenti]
+.	C		M	FFL Atti di Constatazione										[AttiConstatAccertatori.csv]		[_AdcAccertatori]
+#   C   ?       SQL Atti di Constataz (estraz SUN - SQL da definire)
+.2	D		M	FFL Atti di Const (Dettaglio) - Recuperi modelli 97 old new		[Recuperi_modelli97_<new|old>.csv]	[_Recupero_modelli97_<new|old>]
+.2	E		M	FFL RCG - Scarichi ADC RCG e SUN								[Scarichi_ADC_<RCG|SUN>.csv]		[_Scarichi_ADC_<RCG|SUN>]
+.	F		M	SQL DOR/ERT (verificare sql estrae pochi dati)														[_oraAccentramenti]
+.	G		M 	SQL Accertamenti Erariali (modelli 93)																[_AccertamentiErarialiMod93]
+.	H		M	SQL Accertamenti AAMS (modelli 253)																	[_AccertamentiAAMSMod253]
+.	I		M	FFL Accertamenti Autorali										[VigilanzeAutorali.csv]				[_VigilanzeAutorali]
+.	L		M	SQL Accertamenti REGBSM																				[_AccertamentiREGBSM]
+.	S	W	G	FFL Fatture SAP													[SUN_SAP.csv]						[_fflProvvFattureSap]
 
 
 NOTES:
@@ -59,42 +59,10 @@ S	Flusso Fatture – si deve accedere alla cartella \\hnas1_50\SSI\temp\SAP\ (dove
 F – DorErt fonte Sun, dove abbiamo già una query che deve essere sottoposta a revisione (SQL)
 
 
+NOTES @9-May-2017
 
-CREATE TABLE [dbo].[_AdC](
-	[NumeroAtto] [varchar](12) NULL,
-	[DataDocumento] [varchar](50) NULL,
-	[DataControllo] [varchar](50) NULL,
-	[Datainserimento] [varchar](500) NULL,
-	[Automatico] [varchar](500) NULL,
-	[PA] [varchar](500) NULL,
-	[GenereManifestazione] [varchar](150) NULL,
-	[NaturaAtto] [varchar](13) NULL,
-	[SepragObiettivo] [varchar](500) NULL,
-	[Seprag] [varchar](500) NULL,
-	[Esito] [varchar](500) NULL,
-	[StatoDocumento] [varchar](500) NULL,
-	[DenominazioneOrganizzatore] [varchar](500) NULL,
-	[PIVACodiceFiscale] [varchar](500) NULL,
-	[LocaleSpazio] [varchar](500) NULL,
-	[SepragLocale] [varchar](500) NULL,
-	[AttInIspezione] [varchar](500) NULL,
-	[DirittoEvaso] [varchar](500) NULL,
-	[DirittoRecuperato] [varchar](500) NULL,
-	[PenaliRecuperate] [varchar](500) NULL,
-	[InteressiRecuperati] [varchar](500) NULL,
-	[ImportoDovuto] [varchar](500) NULL,
-	[ImportoPagato] [varchar](500) NULL,
-	[SommaDepositi] [varchar](500) NULL,
-	[DataScadenzaPagamento] [varchar](500) NULL,
-	[PresenzaAllegati] [varchar](500) NULL,
-	[NumeroAttestato] [varchar](500) NULL,
-	[DataAttestato] [varchar](500) NULL,
-	[NumeroDiffida] [varchar](500) NULL,
-	[DataDiffida] [varchar](500) NULL,
-	[DataEventoInizio] [varchar](500) NULL,
-	[DataEventoFine] [varchar](500) NULL,
-	[DataStatus] [varchar](500) NULL,
-	[NumeroReversale] [varchar](500) NULL,
-	[DataReversale] [varchar](500) NULL,
-	[Colonna35] [varchar](500) NULL
-) ON [PRIMARY]
+Test User 'schedarioterritoriorw' need to access PortaleIspettivo
+Test SchedarioTerritorio align table structure _AccertamentiREGBSM
+
+
+
