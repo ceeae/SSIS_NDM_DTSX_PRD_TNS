@@ -4,8 +4,9 @@
     <DTSConfigurationFileInfo GeneratedBy="WIN-KHV8JRXRGGV\Administrator" GeneratedFromPackageName="H_import_sql_Accertamenti_AAMS_Modelli253" GeneratedFromPackageID="{93354631-0A70-44C2-B2B2-DA227C030D88}" GeneratedDate="08/05/2017 22.46.07"/>
   </DTSConfigurationHeading>
   <!-- 
-    Automatic (import last 24 hours): set both values to 'Yesterday' (case insensitive)
-    Dates Range: set BOTH values to well-formed dates e.g. sDataQuietanzaDa = '01-07-2012 12:00:00 AM'; sDataQuietanzaA = '31-07-2012 12:00:00 AM'
+    Automatic (import last 24 hours): set both values to 'Yesterday'  (case insensitive)
+    Manual (import a give period - >= Da ... < A): set BOTH values to well-formed dates 
+          e.g. sDataQuietanzaDa = '01-07-2012 12:00:00 AM'; sDataQuietanzaA = '01-08-2012 12:00:00 AM'
   -->
   <Configuration ConfiguredType="Property" Path="\Package.Variables[User::sDataInserimentoA].Properties[Value]" ValueType="String">
     <ConfiguredValue>'yesterday'</ConfiguredValue>

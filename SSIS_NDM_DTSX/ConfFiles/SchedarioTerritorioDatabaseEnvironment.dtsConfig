@@ -4,7 +4,7 @@
     <DTSConfigurationFileInfo GeneratedBy="WIN-KHV8JRXRGGV\Administrator" GeneratedFromPackageName="A_import_sql_Incassi" GeneratedFromPackageID="{3793239E-AB84-4E2C-B4BE-3F4243A0E4CF}" GeneratedDate="08/05/2017 22.06.58"/>
   </DTSConfigurationHeading>
   <!--
-    Environments supported: production | test | development (any other considered development)
+    Environments supported: [ production | test | development (any other considered development) ]
   -->
   <Configuration ConfiguredType="Property" Path="\Package.Variables[User::SchedarioTerritorioDatabaseEnvironment].Properties[Value]" ValueType="String">
     <ConfiguredValue>development</ConfiguredValue>

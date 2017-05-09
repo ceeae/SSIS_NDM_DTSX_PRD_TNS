@@ -4,8 +4,9 @@
     <DTSConfigurationFileInfo GeneratedBy="WIN-KHV8JRXRGGV\Administrator" GeneratedFromPackageName="B_import_sql_Pagamenti_Accentrati" GeneratedFromPackageID="{A2D56511-2F96-4E1E-8A7F-65995CFB988D}" GeneratedDate="08/05/2017 22.10.45"/>
   </DTSConfigurationHeading>
   <!-- 
-    Automatic (import last 24 hours): set both values to 'Yesterday' (case insensitive)
-    Dates Range: set BOTH values to well-formed dates e.g. sDataQuietanzaDa = '01-07-2012 12:00:00 AM'; sDataQuietanzaA = '31-07-2012 12:00:00 AM'
+    Automatic (import last 24 hours): set both values to 'Yesterday'  (case insensitive)
+    Manual (import a give period - >= Da ... < A): set BOTH values to well-formed dates 
+          e.g. sDataQuietanzaDa = '01-07-2012 12:00:00 AM'; sDataQuietanzaA = '01-08-2012 12:00:00 AM'
   -->
   <Configuration ConfiguredType="Property" Path="\Package.Variables[User::sDataReversaleA].Properties[Value]" ValueType="String">
     <ConfiguredValue>'Yesterday'</ConfiguredValue>

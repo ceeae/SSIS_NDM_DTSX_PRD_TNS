@@ -3,6 +3,10 @@
   <DTSConfigurationHeading>
     <DTSConfigurationFileInfo GeneratedBy="WIN-KHV8JRXRGGV\Administrator" GeneratedFromPackageName="C_import_ffl_Atti_Constatazione_Accertatori" GeneratedFromPackageID="{A486620E-1EC0-4BDA-BDF6-CF74EBBB00EA}" GeneratedDate="09/05/2017 17.30.40"/>
   </DTSConfigurationHeading>
+  <!--
+    Set Folder Path for sharing flat files (.CSV) to import. A MANDATORY sub-folder named 'Archive' is used for moving file once imported 
+        i.e. if folder is '\\hnas1_50\Import\' then '\\hnas1_50\Import\Archive' is needed!
+  -->
   <Configuration ConfiguredType="Property" Path="\Package.Variables[User::sFolderPathSource].Properties[Value]" ValueType="String">
     <ConfiguredValue>\\hnas1_50\WebServiziUpload\SchedarioTerritorio\Provvigioni\</ConfiguredValue>
   </Configuration>
