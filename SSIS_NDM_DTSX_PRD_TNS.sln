@@ -21,6 +21,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{6834F5C7
 		SSIS_NDM_DTSX\Notes\Checks_.sql = SSIS_NDM_DTSX\Notes\Checks_.sql
 		SSIS_NDM_DTSX\Notes\FlowA_Checks.sql = SSIS_NDM_DTSX\Notes\FlowA_Checks.sql
 		SSIS_NDM_DTSX\Notes\FlowB_Checks.sql = SSIS_NDM_DTSX\Notes\FlowB_Checks.sql
+		SSIS_NDM_DTSX\Notes\Istruzioni.txt = SSIS_NDM_DTSX\Notes\Istruzioni.txt
 		SSIS_NDM_DTSX\Notes\Readme.md = SSIS_NDM_DTSX\Notes\Readme.md
 		SSIS_NDM_DTSX\Notes\tnsnames.ora = SSIS_NDM_DTSX\Notes\tnsnames.ora
 	EndProjectSection

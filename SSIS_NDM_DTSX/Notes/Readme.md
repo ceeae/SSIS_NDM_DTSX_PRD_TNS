@@ -35,18 +35,17 @@ FLUSSI @2-May-2017
 Input Path: \\hnas1_50\WebServiziUpload\SchedarioTerritorio\Provvigioni\   (parametro)
 Archive:	\\hnas1_50\WebServiziUpload\SchedarioTerritorio\Provvigioni\Archive
 
-.2	A		G	SQL Incassi e Incassi Fittizi																		[_oraIncassi; _oraIncassiFittizi]
-.	B		G	SQL Pagamenti Accentrati																			[_oraAccentramenti]
-.	C		M	FFL Atti di Constatazione										[AttiConstatAccertatori.csv]		[_AdcAccertatori]
-#   C   ?       SQL Atti di Constataz (estraz SUN - SQL da definire)
-.2	D		M	FFL Atti di Const (Dettaglio) - Recuperi modelli 97 old new		[Recuperi_modelli97_<new|old>.csv]	[_Recupero_modelli97_<new|old>]
-.2	E		M	FFL RCG - Scarichi ADC RCG e SUN								[Scarichi_ADC_<RCG|SUN>.csv]		[_Scarichi_ADC_<RCG|SUN>]
-.	F		M	SQL DOR/ERT (verificare sql estrae pochi dati)														[_oraAccentramenti]
-.	G		M 	SQL Accertamenti Erariali (modelli 93)																[_AccertamentiErarialiMod93]
-.	H		M	SQL Accertamenti AAMS (modelli 253)																	[_AccertamentiAAMSMod253]
-.	I		M	FFL Accertamenti Autorali										[VigilanzeAutorali.csv]				[_VigilanzeAutorali]
-.	L		M	SQL Accertamenti REGBSM																				[_AccertamentiREGBSM]
-.	S	W	G	FFL Fatture SAP													[SUN_SAP.csv]						[_fflProvvFattureSap]
+.2	A		G	SQL Incassi e Incassi Fittizi																[_oraIncassi; _oraIncassiFittizi]	[ProvvIncassi; ProvvIncassiDettaglio]
+.	B		G	SQL Pagamenti Accentrati																	[_oraAccentramenti]					[ProvvPagamentiAccentrati; ProvvPagamentiAccentratiDettaglio]
+.	C		M	FFL Atti di Constatazione								[AttiConstatAccertatori.csv]		[_AdcAccertatori]
+.2	D		M	FFL Atti di Const (dett) - Recuperi mod. 97 old new		[Recuperi_modelli97_<new|old>.csv]	[_Recupero_modelli97_<new|old>]
+.2	E		M	FFL RCG - Scarichi ADC RCG e SUN						[Scarichi_ADC_<RCG|SUN>.csv]		[_Scarichi_ADC_<RCG|SUN>]
+.	F		M	SQL DOR/ERT (verificare sql estrae pochi dati)												[_oraAccentramenti]					[ProvvPagamentiAccentrati; ProvvPagamentiAccentratiDettaglio]
+.	G		M 	SQL Accertamenti Erariali (modelli 93)														[_AccertamentiErarialiMod93]
+.	H		M	SQL Accertamenti AAMS (modelli 253)															[_AccertamentiAAMSMod253]
+.	I		M	FFL Accertamenti Autorali								[VigilanzeAutorali.csv]				[_VigilanzeAutorali]
+.	L		M	SQL Accertamenti REGBSM																		[_AccertamentiREGBSM]
+.	S	W	G	FFL Fatture SAP											[SUN_SAP.csv]						[_fflProvvFattureSap]				[ProvvFattureSap]
 
 
 NOTES:

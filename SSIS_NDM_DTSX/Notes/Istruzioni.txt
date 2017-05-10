@@ -1,0 +1,107 @@
+
+@Aggiornamento 10 Maggio 2017
+
+ISTRUZIONI
+----------
+
+I flussi di import sono in totale 14, ed importano dati in due distinte modalità.
+
+* Importazione da SUN (Oracle) attraverso query SQL;
+* Importazione da flat-file (formato CSV);
+
+Il nome del flusso (file dtsx) ha una nomeclatura standard parlante.
+
+
+Configurazione Ambiente DB Schedario Territorio (valida per tutti i flussi)
+---------------------------------------------------------------------------
+
+E' possibile configurare l'ambiente DB per l'istanza SQL Server 2012 R2 SP3 tramite il file 'SchedarioTerritorioDatabaseEnvironment.dtsConfig' impostando
+la variabile SchedarioTerritorioDatabaseEnvironment come "production", "test" o "development" (case insensitive).
+Le stringhe di connessione ai DB per il relativi ambiente sono ovviamente impostati direttamente nel dtsx.
+
+Un esempio per l'ambiente di "test":
+...
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::SchedarioTerritorioDatabaseEnvironment].Properties[Value]" ValueType="String">
+    <ConfiguredValue>TEST</ConfiguredValue>
+  </Configuration>
+...
+
+
+Flussi da SUN via SQL
+---------------------
+
+I flussi da SUN sono rispettivamente:
+
+- A flusso incassi;
+- A flusso incassi fittizi;
+- B flusso pagamenti;
+- F flusso pagamenti da DOR ERT;
+- G flusso accertamenti erariali;
+- H flusso accertamenti AAMS;
+- L flusso accertamenti REGBSM;
+
+I flussi da SUN possono lavorare secondo due diverse modalità: "automatica" e "intervallo temporale".
+La configurazione della modalità viene impostata sul file di configurazione "X_Time_Period.dtsConfig" (dove X può essere A, B, F, G e H).
+
+- Automatica:	è la modalità prevista per il job schedulato giornalmente e scarica i dati da SUN relative al giorno precedente da mezzanotte a mezzanotte; 
+				questa modalità è attivata impostando entrambe le date dell'intervallo da/a con il valore 'yesterday' (ATTENZIONE: con apici ' incluso);
+
+
+Esempio per la modalità "automatica":		
+...		
+  <Configuration ConfiguredType="Property" Path=...sDataQuietanzaDa... ValueType="String">
+    <ConfiguredValue>'Yesterday'</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path=...sDataQuietanzaA... ValueType="String">
+    <ConfiguredValue>'Yesterday'</ConfiguredValue>
+  </Configuration>
+...
+
+			
+- Intervallo Temporale: è la modalità prevista per un lancio manuale del job, scarica i dati da SUN per il periodo temporale impostato;
+				questa modalità è attivata impostando delle date valide per l'intervallo da/a secondo il formato 'dd-MM-yyyy HH:mm:ss AM/PM'
+				es. '01-08-2012 12:00:00 AM';
+				
+
+Esempio per la modalità "intervallo temporale" che scarica l'intero mese di Maggio del 2017:				
+				
+...		
+  <Configuration ConfiguredType="Property" Path=...sDataQuietanzaDa... ValueType="String">
+    <ConfiguredValue>'01-04-2017 12:00:00 AM'</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path=...sDataQuietanzaA... ValueType="String">
+    <ConfiguredValue>'01-05-2017 12:00:00 AM'</ConfiguredValue>
+  </Configuration>
+...
+
+
+
+Flussi da Flat File
+-------------------
+
+I flussi da flat file sono rispettivamente (nome del file importato tra parentesi quadre):
+
+- C flusso atti di constatazione accertatori;	[AttiConstatAccertatori.csv]
+- D flusso recuperi modelli 97 new;				[Recuperi_modelli97_new.csv]
+- D flusso recuperi modelli 97 old;				[Recuperi_modelli97_old.csv]
+- E flusso scarichi ADC RCG;					[Scarichi_ADC_RCG.csv]
+- E flusso scarichi ADC SUN;					[Scarichi_ADC_SUN.csv]
+- I flusso accertamenti autorali;				[VigilanzeAutorali.csv]	
+- S flusso fatture SAP;							[SUN_SAP.csv]
+
+
+Configurazione File Sharing Folder (valida per i flussi da flat-file)
+---------------------------------------------------------------------
+
+Per tutti i flussi di import da flat-file è possibile definire il folder dove è prevista la presenza dei flat-file.
+E' possibile configurare File Sharing Folder tramite il file 'SchedarioTerritorioFileSharingFolder.dtsConfig' impostando
+la relativa variabile.
+
+ATTENZIONE: è MANDATORIO che esista una sotto-directory chiamata "Archive", verificare che esista!
+
+Esempio per impostare il folder "\\hnas1_50\WebServiziUpload\SchedarioTerritorio\Provvigioni\" (ATTENZIONE: il \ finale è necessario)
+...
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::sFolderPathSource].Properties[Value]" ValueType="String">
+    <ConfiguredValue>\\hnas1_50\WebServiziUpload\SchedarioTerritorio\Provvigioni\</ConfiguredValue>
+  </Configuration>
+...
