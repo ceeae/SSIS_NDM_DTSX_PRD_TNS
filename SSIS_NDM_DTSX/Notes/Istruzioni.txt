@@ -4,19 +4,20 @@
 ISTRUZIONI
 ----------
 
-I flussi di import sono in totale 14, ed importano dati in due distinte modalità.
+I flussi (tutti di import) sono in totale 14, ed importano da dalle sorgenti:
 
-* Importazione da SUN (Oracle) attraverso query SQL;
-* Importazione da flat-file (formato CSV);
+* SUN (DB Oracle di produzione) attraverso query SQL;
+* Flat-file (formato CSV) presenti su un folder condiviso;
 
-Il nome del flusso (file dtsx) ha una nomeclatura standard parlante.
+Ogni flusso (file dtsx) ha un nome con nomeclatura standard parlante (vedi dopo).
 
 
 Configurazione Ambiente DB Schedario Territorio (valida per tutti i flussi)
 ---------------------------------------------------------------------------
 
-E' possibile configurare l'ambiente DB per l'istanza SQL Server 2012 R2 SP3 tramite il file 'SchedarioTerritorioDatabaseEnvironment.dtsConfig' impostando
-la variabile SchedarioTerritorioDatabaseEnvironment come "production", "test" o "development" (case insensitive).
+E' possibile stabilire su quale DB (SQL Server 2012 R2 SP3) operare tramite il file 'SchedarioTerritorioDatabaseEnvironment.dtsConfig', impostando
+la variabile SchedarioTerritorioDatabaseEnvironment.
+Per puntare ad un ambiente è sufficiente impostare la variabile con il nome dell'ambiente: rispettivamente "production", "test" o "development" (case insensitive).
 Le stringhe di connessione ai DB per il relativi ambiente sono ovviamente impostati direttamente nel dtsx.
 
 Un esempio per l'ambiente di "test":
@@ -93,8 +94,8 @@ I flussi da flat file sono rispettivamente (nome del file importato tra parentes
 Configurazione File Sharing Folder (valida per i flussi da flat-file)
 ---------------------------------------------------------------------
 
-Per tutti i flussi di import da flat-file è possibile definire il folder dove è prevista la presenza dei flat-file.
-E' possibile configurare File Sharing Folder tramite il file 'SchedarioTerritorioFileSharingFolder.dtsConfig' impostando
+Per tutti i flussi di import da flat-file è necessario impostare il folder da dove verranno importati i flat-file.
+E' possibile configurare il File Sharing Folder tramite 'SchedarioTerritorioFileSharingFolder.dtsConfig' impostando
 la relativa variabile.
 
 ATTENZIONE: è MANDATORIO che esista una sotto-directory chiamata "Archive", verificare che esista!

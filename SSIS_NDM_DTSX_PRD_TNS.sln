@@ -18,6 +18,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConfigFiles", "ConfigFiles"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{6834F5C7-301B-4BA1-966C-89B93093CE25}"
 	ProjectSection(SolutionItems) = preProject
+		\\vmware-host\Shared Folders\shared\SIAE\DifferenzeStrutturaDB\20170510_ScriptAllineamento_Svil_Test_SchedarioTerritorio.sql = \\vmware-host\Shared Folders\shared\SIAE\DifferenzeStrutturaDB\20170510_ScriptAllineamento_Svil_Test_SchedarioTerritorio.sql
 		SSIS_NDM_DTSX\Notes\Checks_.sql = SSIS_NDM_DTSX\Notes\Checks_.sql
 		SSIS_NDM_DTSX\Notes\FlowA_Checks.sql = SSIS_NDM_DTSX\Notes\FlowA_Checks.sql
 		SSIS_NDM_DTSX\Notes\FlowB_Checks.sql = SSIS_NDM_DTSX\Notes\FlowB_Checks.sql
